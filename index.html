@@ -37,9 +37,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link text-white" href="#">Quienes Somos</a>
-                    <a class="nav-link text-white" href="#">Destacados</a>
-                    <a class="nav-link text-white" href="#">Contacto</a>
+                    <a class="nav-link text-white" href="#quienes_somos">Quienes Somos</a>
+                    <a class="nav-link text-white" href="#destacados">Destacados</a>
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,8 @@
                                 <i class="fa-solid fa-plane text-white pt-3 pb-3"></i>
                             </div>
                             <div class="card-body">
-                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                <p id="texto-card1" class="card-text texto-cards-qs">Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
@@ -101,7 +102,7 @@
                     <div class="mb-5 col-xl-4 col-lg-12">
                         <div class="card border-0 mx-auto fondo-card-qs">
                             <div class="card-body">
-                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                <p id="texto-card2" class="card-text texto-cards-qs">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
@@ -121,7 +122,7 @@
                                 <i class="fas fa-route text-white pt-3 pb-3"></i>
                             </div>
                             <div class="card-body">
-                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                <p id="texto-card3" class="card-text texto-cards-qs">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
@@ -216,7 +217,8 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                             placeholder=""></textarea>
                     </div>
-                    <button type="submit" class="btn btn-info text-white boton">Enviar</button>
+                    <button id="enviarCorreo" type="submit" class="btn btn-info text-white boton"
+                        title="Presiona aquí y tus datos serán enviados" data-toggle="tooltip">Enviar</button>
                 </form>
             </div>
         </div>
@@ -245,8 +247,9 @@
     <!-- FIN FOOTER -->
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -258,9 +261,18 @@
     </script>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <!-- app.js -->
     <script src="assets/js/app.js"></script>
+
+
+    <!--
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+      
+   -->
+
 </body>
 
 </html>
