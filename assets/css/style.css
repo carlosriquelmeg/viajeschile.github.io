@@ -1,0 +1,17 @@
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.titulo_logo{
+    font-weight: 700;
+}
+
+.navbar{
+    z-index: 2;
+}
+
+.carousel{
+    z-index: 1;
+    margin-top: -200px;
+}
