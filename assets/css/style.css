@@ -64,3 +64,8 @@ body{
 footer h4{
     font-weight: 700;
 }
+
+.navbar-scroll {
+    background-color: #00CEF5;
+    transition: background-color 0.5s ease-in-out;
+  }
